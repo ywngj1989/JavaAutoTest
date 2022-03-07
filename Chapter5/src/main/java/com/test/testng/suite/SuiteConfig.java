@@ -1,9 +1,5 @@
 package com.test.testng.suite;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.w3c.dom.ls.LSOutput;
+import org.testng.annotations.*;
 
 public class SuiteConfig {
 
