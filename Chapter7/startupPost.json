@@ -1,0 +1,28 @@
+[
+  {
+    "description":"这是一个不带参数的post请求",
+    "request":{
+      "uri":"/postdemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"胡汉三回来了"
+    }
+  },
+  {
+    "description":"这是一个带参数的post请求",
+    "request":{
+      "uri":"/postwithparam",
+      "method":"post",
+      "forms":{
+        "name":"huhansan",
+        "sex":"man"
+      }
+    },
+    "response":{
+      "text":"HuHanSan is coming"
+
+    }
+  }
+
+]
